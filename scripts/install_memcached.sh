@@ -1,5 +1,1 @@
-apt install memcached
-
-apt install php-memcached
-
-apt install php-memcache
+sudo apt-get install php5-memcached memcached
