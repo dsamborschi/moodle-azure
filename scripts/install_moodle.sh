@@ -224,8 +224,8 @@ set -ex
         php-pear \
         php-mbstring \
         php-dev \
-        php5-memcached \
-        memcached \
+        # php5-memcached \
+        # memcached \
         mcrypt >> /tmp/apt.log
 
     PhpVer=$(get_php_version)
